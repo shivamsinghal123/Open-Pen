@@ -99,8 +99,7 @@ header nav ul li a {
 #hero-image {
     height: 580px;
     padding-top: 1px;
-    background: #e8eced url('Diversity.png') no-repeat center;
-    opacity: .5;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('Diversity.png') no-repeat center;
 }
 #hero-image h2 {
     margin: 180px 0 40px 0;
