@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('earth.jpg');     
+    background: url('earth.jpg');     
     color: #777;
     font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
