@@ -6,4 +6,5 @@ topic_cat       INT(8) NOT NULL,
 topic_by        INT(8) NOT NULL,
 PRIMARY KEY (topic_id)
 ALTER TABLE topics ADD FOREIGN KEY(topic_cat) REFERENCES categories(cat_id) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE topics ADD FOREIGN KEY(topic_by) REFERENCES users(user_id) ON DELETE RESTRICT ON UPDATE CASCADE;
 ) TYPE=INNODB;
