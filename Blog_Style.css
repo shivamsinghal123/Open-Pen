@@ -73,6 +73,8 @@ small {
 }
 header {
     height: 120px;
+    background-color: #f8fafa;
+
 }
 header h1 {
     float: left;
